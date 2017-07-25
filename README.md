@@ -3,10 +3,9 @@
 C : Ctrl
 M : Alt (Esc)
 
-C-g quit current Emacs command
-
-C-x C-f open / "visit" a file
-C-x k kill buffer representing file. Does not delete file
+* C-g quit current Emacs command
+* C-x C-f open / "visit" a file
+* C-x k kill buffer representing file. Does not delete file
 
 * Cursor (point) manipulation
   * C-f move forward one character
@@ -14,14 +13,13 @@ C-x k kill buffer representing file. Does not delete file
   * M-f move forward one word
   * M-b move back one word
   
-C-d delete a character
-M-d delete a word
-C-\_ undo
-C-k kill to end of line
-M-w copy
-C-w cut
-C-y yank / paste
-
+* C-d delete a character
+* M-d delete a word
+* C-\_ undo
+* C-k kill to end of line
+* M-w copy
+* C-w cut
+* C-y yank / paste
 
 * Cursor movement
   * C-p previous line / up
@@ -46,11 +44,11 @@ C-y yank / paste
   
  * C-space toggle marking region
  
- M-u upper case
- M-l lower case
- M-c capitalize
- M-x or M-% query-replace
- M-x replace-string (replace without query)
- M-$ spell check current word
- M-x shell <-- start a bash command line
+*  M-u upper case
+*  M-l lower case
+*  M-c capitalize
+*  M-x or M-% query-replace
+*  M-x replace-string (replace without query)
+*  M-$ spell check current word
+*  M-x shell <-- start a bash command line
  
