@@ -53,3 +53,5 @@ M : Alt (Esc)
 *  M-x shell <-- start a bash command line
 
 *  C-h v user-init-file <-- will locate .emacs file
+*  M-x desktop-save to save a session
+*  M-x desktop-change-dir to load a session
