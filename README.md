@@ -12,6 +12,7 @@ M : Alt (Esc)
   * C-b move back one character
   * M-f move forward one word
   * M-b move back one word
+  * M-g g goto line
   
 * C-d delete a character
 * M-d delete a word
@@ -30,13 +31,16 @@ M : Alt (Esc)
   * M-> end of the buffer
   * C-v page up
   * M-v page down
+  * C <down-arrow> move to next blank line
   
 * Screen buffer
-  * C-l redraw buffer w/ centered cursor
+  * C-l (L, not one) redraw buffer w/ centered cursor
   * C-x 1 one buffer, current buffer remains
   * C-x 2 split buffer top/bottom
   * C-x 3 split buffer left/right
   * C-x o other (next) window
+  * C-x 0 close current window buffer
+  * M-x linum-mode enable line numbers in current buffer
 
 * Search
   * C-s caseinsensitivesearch <-- search
@@ -44,14 +48,15 @@ M : Alt (Esc)
   
  * C-space toggle marking region
  
-*  M-u upper case
-*  M-l lower case
-*  M-c capitalize
-*  M-x or M-% query-replace
-*  M-x replace-string (replace without query)
-*  M-$ spell check current word
-*  M-x shell <-- start a bash command line
+* M-u upper case
+* M-l lower case
+* M-c capitalize
+* M-x or M-% query-replace
+* M-x replace-string (replace without query)
+* M-$ spell check current word
+* M-x shell <-- start a bash command line
 
-*  C-h v user-init-file <-- will locate .emacs file
-*  M-x desktop-save to save a session
-*  M-x desktop-change-dir to load a session
+* C-h v user-init-file <-- will locate .emacs file
+* M-x desktop-save to save a session
+* M-x desktop-change-dir to load a session
+* M-x M-p previous command 
