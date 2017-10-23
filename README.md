@@ -3,6 +3,7 @@
 C : Ctrl
 M : Alt (Esc)
 
+* C-h C-r Emacs manual
 * C-g quit current Emacs command
 * C-x C-f open / "visit" a file
 * C-x k kill buffer representing file. Does not delete file
@@ -31,7 +32,7 @@ M : Alt (Esc)
   * M-> end of the buffer
   * C-v page up
   * M-v page down
-  * C <down-arrow> move to next blank line
+  * C down-arrow move to next blank line
   
 * Screen buffer
   * C-l (L, not one) redraw buffer w/ centered cursor
