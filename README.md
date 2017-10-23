@@ -4,8 +4,6 @@ C : Ctrl
 
 M : Alt (Esc)
 
-M-x linum-mode to enable line numbers on left column
-
 * C-h C-r Emacs manual
 * C-g quit current Emacs command
 * C-x C-f open / "visit" a file
