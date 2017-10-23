@@ -46,3 +46,6 @@
 
 (global-set-key [(meta up)]  'move-line-up)
 (global-set-key [(meta down)]  'move-line-down) 
+
+(set-face-foreground 'font-lock-string-face #D69D73)
+(set-face-foreground 'font-lock-comment-face "lime green")
