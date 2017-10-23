@@ -8,6 +8,7 @@ M : Alt (Esc)
 * C-g quit current Emacs command
 * C-x C-f open / "visit" a file
 * C-x k kill buffer representing file. Does not delete file
+* C-Shift-Backspace deletes line (not kill into kill ring)
 
 * Cursor (point) manipulation
   * C-f move forward one character
