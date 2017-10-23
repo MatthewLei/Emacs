@@ -16,7 +16,7 @@ M : Alt (Esc)
   
 * C-d delete a character
 * M-d delete a word
-* C-\_ undo
+* C-/ or C-Shift-\_ undo
 * C-k kill to end of line
 * M-w copy
 * C-w cut
