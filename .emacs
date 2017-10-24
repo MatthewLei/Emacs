@@ -54,4 +54,5 @@
 (set-face-foreground 'font-lock-variable-name-face white)
 (set-face-foreground 'font-lock-function-name-face white)
 (set-face-foreground 'font-lock-constant-face orchid)
-(set-face-foreground 'font-lock-type-face SteelBlue1)
+(set-face-foreground 'font-lock-type-face #4EC9B0)
+(set-face-foreground 'font-lock-keyword-face #35AFAF)
