@@ -58,7 +58,7 @@ M : Alt (Esc)
 * M-x or M-% query-replace
 * M-x replace-string (replace without query)
 * M-$ spell check current word
-* M-x shell <-- start a bash command line
+* M-! or M-x shell <-- start a bash command line
 
 * C-h v user-init-file <-- will locate .emacs file
 * M-x desktop-save to save a session
