@@ -17,6 +17,8 @@ M : Alt (Esc)
   * M-f move forward one word
   * M-b move back one word
   * M-g g goto line
+  * C-M-a jump to beggining of function
+  * C-M-e jump to end of function
   
 * C-d delete a character
 * M-d delete a word
@@ -36,6 +38,10 @@ M : Alt (Esc)
   * C-v page up
   * M-v page down
   * C down-arrow move to next blank line
+  * M-e move to next ; or { or }
+  * M-a move to begging of empty line, expression, etc. (idk, try it yourself)
+  * C-M-n move to next ; or { or } (skips comments)
+  * C-M-p move to prev \[ or ( or { (skips comments)
   
 * Screen buffer
   * C-l (L, not one) redraw buffer w/ centered cursor
@@ -49,6 +55,7 @@ M : Alt (Esc)
 * Search
   * C-s caseinsensitivesearch <-- search
   * C-s caseSensitiveSearch <-- search
+  * M-e edit search string
   
  * C-space toggle marking region
  
