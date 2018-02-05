@@ -4,6 +4,9 @@ C : Ctrl
 
 M : Alt (Esc)
 
+M-x set-variable RET tab-width RET 4 RET
+
+
 * C-h C-r Emacs manual
 * C-g quit current Emacs command
 * C-x C-f open / "visit" a file
@@ -71,3 +74,7 @@ M : Alt (Esc)
 * M-x desktop-save to save a session
 * M-x desktop-change-dir to load a session
 * M-x M-p previous command 
+
+* Reindent entire file
+  * C-x h : mark current whole buffer
+  * M-x indent-region : indents marked region
