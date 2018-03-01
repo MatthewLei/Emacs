@@ -12,6 +12,8 @@ C-h k <key_combination> describes key
 
 M-/ autocompletes from for current scope/context (cycles)
 
+M-RET Full screen
+
 * C-h C-r Emacs manual
 * C-g quit current Emacs command
 * C-x C-f open / "visit" a file
