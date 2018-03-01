@@ -4,8 +4,13 @@ C : Ctrl
 
 M : Alt (Esc)
 
+M-x set-variable RET c-basic-offset RET 4 RET
+
 M-x set-variable RET tab-width RET 4 RET
 
+C-h k <key_combination> describes key
+
+M-/ autocompletes from for current scope/context (cycles)
 
 * C-h C-r Emacs manual
 * C-g quit current Emacs command
@@ -22,6 +27,7 @@ M-x set-variable RET tab-width RET 4 RET
   * M-g g goto line
   * C-M-a jump to beggining of function
   * C-M-e jump to end of function
+  * M-RET marks current function, and again to mark next (...) function.
   
 * C-d delete a character
 * M-d delete a word
