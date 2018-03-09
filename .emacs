@@ -29,6 +29,7 @@
 
 (desktop-save-mode 1)
 (show-paren-mode 1)
+(linum-mode 1)
 
 (defun move-line-up ()
   "Move up the current line."
