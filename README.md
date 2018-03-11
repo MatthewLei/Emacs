@@ -69,6 +69,7 @@ M-/ autocompletes from for current scope/context (cycles)
   * C-x o other (next) window
   * C-x 0 close current window buffer
   * M-x linum-mode enable line numbers in current buffer
+  * M-x revert-buffer "reverts buffer to version of file on disk"
 
 * Search
   * C-s caseinsensitivesearch <-- search
