@@ -1,3 +1,17 @@
+;;(desktop-save-mode 1)
+
+(load-theme 'manoj-dark)
+(show-paren-mode 1) ;; show matching parenthesis
+(linum-mode 1) ;; show line numbers
+(scroll-bar-mode -1) ;; disable scroll bar
+(tool-bar-mode -1) ;; disable tool bar
+(column-number-mode) ;; display column number in the mode-line
+(set-cursor-color "Green") ;; green cursor
+(setq-default c-basic-offset 4)
+(setq-default transient-mark-mode t) ;; enable marked region highlighting
+
+
+
 (require 'package)
 (add-to-list 'package-archives
 	     '("melpa" . "http://melpa.org/packages/") t)
@@ -8,28 +22,26 @@
 ;; You may delete these explanatory comments.
 (package-initialize)
 
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(ansi-color-names-vector
-   ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
- '(custom-enabled-themes (quote (manoj-dark)))
- '(package-selected-packages (quote (auto-overlays)))
- '(tab-always-indent (quote complete))
- '(tab-width 4)
- '(c-basic-offset 4))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+(powerline-center-theme) ;; powerline package from melpa
 
-(desktop-save-mode 1)
-(show-paren-mode 1)
-(linum-mode 1)
+;;(custom-set-variables
+;; ;; custom-set-variables was added by Custom.
+;; ;; If you edit it by hand, you could mess it up, so be careful.
+;; ;; Your init file should contain only one such instance.
+;; ;; If there is more than one, they won't work right.
+;; '(ansi-color-names-vector
+;;   ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
+;; '(custom-enabled-themes (quote (manoj-dark)))
+;; '(package-selected-packages (quote (auto-overlays)))
+;; '(tab-always-indent (quote complete))
+;; '(tab-width 4)
+;; '(c-basic-offset 4))
+;;(custom-set-faces
+;; ;; custom-set-faces was added by Custom.
+;; ;; If you edit it by hand, you could mess it up, so be careful.
+;; ;; Your init file should contain only one such instance.
+;; ;; If there is more than one, they won't work right.
+;; )
 
 (defun move-line-up ()
   "Move up the current line."
