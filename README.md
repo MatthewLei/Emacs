@@ -12,14 +12,14 @@ C-h k <key_combination> describes key
 
 M-/ autocompletes from for current scope/context (cycles)
 
-M-RET Full screen
-
 * C-h C-r Emacs manual
 * C-g quit current Emacs command
 * C-x C-f open / "visit" a file
 * C-x k kill buffer representing file. Does not delete file
 * C-Shift-Backspace deletes line (not kill into kill ring)
 * C-x z rerun last command
+* C-y yank from kill ring
+* M-y after a yank, will retrieve older kills
 
 * Cursor (point) manipulation
   * C-f move forward one character
@@ -30,6 +30,7 @@ M-RET Full screen
   * C-M-a jump to beggining of function
   * C-M-e jump to end of function
   * M-RET marks current function, and again to mark next (...) function.
+  * M-h (mark-paragraph)
   
 * C-d delete a character
 * M-d delete a word
