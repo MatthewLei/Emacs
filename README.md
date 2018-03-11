@@ -21,6 +21,10 @@ M-/ autocompletes from for current scope/context (cycles)
 * C-y yank from kill ring
 * M-y after a yank, will retrieve older kills
 
+* Character/Word/Paragraph Manipulation
+  * M-t transposes two words
+  * C-x C-t transposes two lines
+
 * Cursor (point) manipulation
   * C-f move forward one character
   * C-b move back one character
@@ -31,6 +35,8 @@ M-/ autocompletes from for current scope/context (cycles)
   * C-M-e jump to end of function
   * M-RET marks current function, and again to mark next (...) function.
   * M-h (mark-paragraph)
+  * M-{ (backward-paragraph)
+  * M-} (forward-paragraph)
   
 * C-d delete a character
 * M-d delete a word
