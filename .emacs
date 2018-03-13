@@ -2,15 +2,13 @@
 
 (load-theme 'manoj-dark)
 (show-paren-mode 1) ;; show matching parenthesis
-(linum-mode 1) ;; show line numbers
+(global-linum-mode 1) ;; show line numbers
 (scroll-bar-mode -1) ;; disable scroll bar
 (tool-bar-mode -1) ;; disable tool bar
 (column-number-mode) ;; display column number in the mode-line
 (set-cursor-color "Green") ;; green cursor
 (setq-default c-basic-offset 4)
 (setq-default transient-mark-mode t) ;; enable marked region highlighting
-
-
 
 (require 'package)
 (add-to-list 'package-archives
