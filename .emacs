@@ -59,6 +59,10 @@
 (global-set-key [(meta up)]  'move-line-up)
 (global-set-key [(meta down)]  'move-line-down) 
 
+(when (eq system-type 'darwin)
+  (setq mac-command-modifier 'meta)
+  (setq mac-option-modifier nil))
+
 (set-face-foreground 'font-lock-string-face "#D69D73")
 (set-face-foreground 'font-lock-comment-face "lime green")
 (set-face-foreground 'font-lock-comment-delimiter-face "lime green")
